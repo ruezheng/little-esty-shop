@@ -39,10 +39,10 @@ RSpec.describe 'merchant dashboard show' do
 # who have conducted the largest number of successful transactions with my merchant
 # And next to each customer name I see the number of successful transactions they have
 # conducted with my merchant
-
-  it "displays the largest number of successful transactions of top 5 customers" do
-    visit "/merchants/#{merchant1.id}/dashboard"
-
-    expect(page).to have_content()
-  end
+  # 
+  # it "displays the largest number of successful transactions of top 5 customers" do
+  #   visit "/merchants/#{merchant1.id}/dashboard"
+  #
+  #   expect(page).to have_content()
+  # end
 end
