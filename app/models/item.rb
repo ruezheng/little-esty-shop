@@ -8,8 +8,6 @@ class Item < ApplicationRecord
 
   enum status: { 'disabled' => 0, 'enabled' => 1 }
 
-
-
   def top_five_items
     require "pry"; binding.pry
   end
